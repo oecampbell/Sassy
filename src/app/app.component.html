@@ -1,3 +1,22 @@
-<h1>
-  {{title}}
-</h1>
+<nav class="navbar navbar-default">
+  <div class="container-fluid">
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle btn-default navbar-btn" data-toggle="collapse" data-target="#myNavbar"> Menu
+      </button>
+    </div>
+    <div class="collapse navbar-collapse" id="myNavbar">
+      <ul class="nav navbar-nav">
+        <li class="dropdown">
+          <ul class="dropdown-menu">
+          </ul>
+        </li>
+      </ul>
+      <ul class="nav navbar-nav navbar-right">
+        <li><a routerLink="home">Home</a></li>
+        <li><a routerLink="about">About</a></li>
+        <li><a routerLink="news">News</a></li>
+        <li><a routerLink="suggestions">Feedback</a></li>
+      </ul>
+    </div>
+  </div>
+</nav>
