@@ -1,6 +1,31 @@
 @import "./src/assets/components/stylesheets/_index.scss";
 
 h1 {
-color: $green;
-font-family: $header-font;
+ color: $green;
+ font-family: $header-font;
 }
+
+h2 {
+ color: $red;
+ font-family: $base-font;
+}
+
+h3 {
+  color: $black;
+  font-family: $base-font;
+}
+h4 {
+  color: $blue;
+  font-family: $base-font;
+}
+
+h5 {
+  color: $orange;
+  font-family: $base-font;
+}
+
+h6 {
+  color: $green-yellow;
+  font-family: $base-font;
+}
+
